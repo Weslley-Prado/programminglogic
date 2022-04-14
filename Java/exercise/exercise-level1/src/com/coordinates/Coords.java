@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class Coords {
 
 	public static void main(String[] args) {
-           Scanner sc = new Scanner (System.in);
+           @SuppressWarnings("resource")
+		Scanner sc = new Scanner (System.in);
            
            System.out.println("Write coordinates x and y: ");
            int x = sc.nextInt();
